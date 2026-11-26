@@ -54,7 +54,7 @@
 | 09_final_visualization.ipynb | 시각화 |
 
 ## 실행 방법
-Google Colab에서 작성한 기존 코드입니다. 원본 데이터 및 중간 산출물이 포함되지 않으며, 노트북에 남은 Drive 경로를 실행 환경에 맞게 수정해야 합니다. API 인증은 Colab Secrets를 사용합니다. 이번 복구 과정에서 전체 파이프라인을 재실행하지 않았습니다.
+Google Colab에서 작성한 코드입니다. 노트북의 Drive 경로를 실행 환경에 맞게 바꾸고, Kakao API 키는 Colab Secrets에 넣어 실행합니다.
 
 ## 분석의 한계
 생활인구는 실제 정책 수요나 시설 부족을 직접 측정한 값이 아닙니다. 행정동 미매칭 60건과 좌표 미확보 65건, 원자료 제공 방식 차이가 공간분포에 영향을 줄 수 있습니다. 실제 활용 적합성은 법적·물리적·경제적 조건과 주민수요를 추가로 검토해야 합니다.
@@ -65,4 +65,4 @@ Python, pandas, NumPy, Matplotlib, Google Colab, Kakao Local API
 ## 자료 출처
 프로젝트 분석 보고서; 부산광역시 및 구·군 공개자료; Big-데이터 웨이브 생활인구; SGIS 기반 admdongkor; Kakao Developers Local API.
 
-대회 제공 데이터와 개인정보 포함 제출 서류는 포함하지 않습니다. 외부 공개 전에 데이터 이용 조건을 확인해야 합니다.
+원본 데이터는 포함하지 않았습니다.
